@@ -1,0 +1,484 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(214 ,207, 207);
+}
+.d-flex {
+    display: flex;
+}
+.jca {
+    justify-content: space-around;
+}
+.dfjcac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    color: gray;
+}
+.container {
+    width: 90%;
+    /* background-color: white; */
+    margin: auto;
+    z-index: -1px;
+}
+.wrapper {
+    width: 90%;
+    height: 100vh;
+    /* border: 1px solid; */
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(214, 207, 207);
+    z-index: -2px;
+}
+
+.verticlcard {
+    border: none;
+    height: 98vh;
+    width: 240px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 25px;
+    background-color: rgb(236, 233, 233);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.images {
+    display: flex;
+    height: 40px;
+    font-size: 15px;
+}
+.icon {
+    margin-right: 10px;
+}
+.add {
+    margin-left: 102px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    /* border: 1px solid; */
+    font-weight: 700;
+    background-color: rgb(197, 194, 194);
+}
+.task{
+    margin-right: 22px;
+}
+.content {
+    border: none;
+    background-color: white;
+    height: 140px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.pro {
+    font-size: larger;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.get {
+    font-size: 13px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.Upgrade {
+    border: none;
+    background-color: rgb(140, 208, 231);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 6px;
+    height: 35px;
+    width: 90%;
+    font-weight: 800;
+    margin-left: 8px;
+}
+.help {
+    height: 40px;
+}
+.icon1 {
+    display: flex;
+}
+.icon2 {
+    margin-bottom: 15px;
+}
+.horizontalcard {
+    width: 670px;
+    height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+}
+.logoimg1 {
+
+    margin-right: 5px;
+}
+.logoimg1>img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* border: 1px solid; */
+}
+.margaret {
+    font-size: 17px;
+    font-weight: 800;
+    padding-top: 8px;
+}
+p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.date1 {
+    display: flex;
+    margin-left: 15px;
+}
+.line {
+    height: 35px;
+    width: 2px;
+    background-color: rgb(236, 233, 233);
+    margin-right: 20px;
+}
+.date {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+    width: 75px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(236, 233, 233);
+}
+.feb {
+    padding-bottom: 3px;
+}
+.msgclass {
+    display: flex;
+    /* border: 1px solid; */
+    margin-left: 10px;
+}
+
+.searchbar {
+    border: none;
+    margin-left: 50px;
+    height: 35px;
+    width: 187px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 20px; 
+}
+input[type="text"] {
+    height: 35px;
+    width: 170px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 233, 233);
+    margin-left: 6px;
+}
+.Search{
+    margin-left: 18px;
+
+}
+.msg {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(236, 233, 233);
+    margin: 5px;
+}
+.green {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgb(6, 196, 6);
+    top: 30px;
+    right: 16px;
+    position: relative;
+}
+
+.red {
+    background-color: red;
+    top: 10px;
+    right: 13px;
+}
+.threecard {
+    /* display: flex; */
+}
+.middlecard {
+    /* border: 1px solid; */
+    margin-right: 30px;
+    width: 320px;
+    height: 522px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+.innermiddlecard {
+    width: 300px;
+    height: 180px;
+    /* border: 1px solid; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 233, 233);
+    margin-bottom: 10px;
+
+}
+.x {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 10px;
+}
+.circle>img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.icon3 {
+    display: flex;
+}
+.white {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+.marg {
+    font-size: 15px;
+    font-weight: 800;
+    margin: 5px auto;
+}
+.today {
+    margin-bottom: 10px;
+}
+h3 {}
+.line2 {
+    height: 2px;
+    width: 80px;
+    background-color: rgb(236, 233, 233);
+    margin-top: 10px;
+}
+.hi {
+    /* border: 1px solid; */
+    margin-left: 85px;
+    border-radius: 12px 12px 0px 12px;
+    background-color: rgb(219, 238, 245);
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 500;
+
+}
+.next {
+    height: 60px;
+}
+.here {
+    height: 50px;
+}
+.time {
+    margin-top: 30px;
+    font-size: 13px;
+}
+.voice{
+    margin-top: 5px;
+}
+.google {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* border: 1px solid; */
+    background-color: white;
+    margin-right: 5px;
+}
+.is {
+    height: 55px;
+    width: 215px;
+    margin-top: 5px;
+    padding-top: 6px;
+    margin-bottom: 30px;
+    position: absolute;
+    
+}
+.pro1 {
+    font-weight: 600;
+}
+.thumb{
+height: 27px;
+width: 27px;
+border-radius: 50%;
+background-color: rgb(236, 233, 233);
+position: relative;
+top: 9px;
+left: 130px;
+
+}
+span{
+font-size: 13px;
+}
+.happy{
+    width: 100%;
+    border: none;
+    margin-top: 85px;
+    border-radius: 7px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(236, 233, 233);
+    padding-top: 3px;
+}
+.twocard {
+    margin-top: 60px;
+    width: 320px;
+    height: 522px;
+}
+.halfcard {
+    /* border: 1px solid; */
+    background-color: white;
+    height: 256px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.firsthalfcard {
+    margin-bottom: 10px;
+}
+.date2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 22px;
+    width: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(236, 233, 233);
+    padding-top: 3px;
+    color: rgb(9, 147, 193);
+}
+.team2{
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.team{
+    font-weight: 700;
+    margin-left: 7px;
+}
+.email{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:rgb(236, 233, 233);
+    margin-top: 5px;
+}
+.logoimg2 >img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.Billy{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.p3{
+    font-size: 14px;
+    font-weight: 100;
+}
+.line3{
+    height: 2px;
+    width: 100%;
+    background-color: rgb(236, 233, 233);
+}
+.add2{
+    background-color: rgb(140, 208, 231);
+    margin-right: 8px;
+}
+.invite{
+    margin-top: 11px;
+
+}
+.secondhalfcard {
+    padding: 15px;
+    z-index: -3px;
+    position: absolute;
+}
+.meeting{
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.project2{
+    margin-bottom: 15px;
+}
+.line4{
+    width: 100%;
+    height: 35px;
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: rgb(236, 233, 233);
+    padding-top: 8px;
+    padding: 10px;
+}
+.Attendees{
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+.images5 >img{
+    height: 27px;
+    width: 27px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    margin-right: -10px;
+    
+    margin-top: 7px;
+    z-index: -4px;
+    position: relative;
+}
+.timer{
+    margin-right: 7px;
+}
+.timer2{
+    margin-right: 150px;
+}
+.monday{
+    margin-right: 90px;
+}
+.add3{
+    height: 27px;
+    width: 27px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    background-color: rgb(200, 235, 247);
+    /* margin-right: -13px; */
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    z-index: -4px;
+}
+.send{
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.allcontent{   
+    margin-top: 10px;
+    margin-left: 65px;
+}
+.airplane{
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: rgb(140, 208, 231);;
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(176, 173, 173);
+}
+.container{
+    width: 33%;
+    height: 180px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+}
+.img{
+    height:150px ;
+    width: 150px;
+    background-color: rgb(229, 225, 225);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    width: 100%;
+
+}
+.content{
+    flex-direction: column;
+    
+}
+.content1{
+    margin-bottom: 10px;
+}
+
+.main{
+height:60px ;
+width: 220px;
+background-color:  rgb(221, 221, 216);
+border-radius: 10px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-bottom: 20px;
+}
+.num{
+    font-size: 25px;
+    
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7px;
+    
+}
+.more{
+    height: 33px;
+    width: 100px;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Chat{
+   
+    border: 1px  rgb(176, 173, 173) solid;
+    background-color: white;
+    margin-right: 15px;
+}
+.Follow{
+    background-color: rgb(87, 87, 223); 
+       
+}

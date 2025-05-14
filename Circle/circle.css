@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.circleDP>img{
+    
+}
+.imgdp{
+    width: 100px;
+    height: 100px;
+    border: 1px solid ;
+    /* margin: auto; */
+    margin-top: 10px;
+    margin-left: 585px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.bgdiv{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid;
+    background-color: rgb(255, 163, 50);
+    background-color: transparent;
+    margin: auto;
+    background-image: url("./images/images\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px 0px rgb(250, 111, 111, 0.557);
+
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
